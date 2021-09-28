@@ -1,0 +1,70 @@
+baseURL = 'http://example.org/'
+title = "Home"
+languageCode = 'en-us'
+theme = "hugo-coder"
+
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params] # theme parameters
+    author = "Drake Talley" # Author's name.
+    info = "Software Engineer" # Author's job title or info.
+    description = "Blog and Portfolio Site" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "profile.png" # Contain the path of the optionnal avatar in the static folder.
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    enableTwemoji = true
+    hidecolorschemetoggle = true
+    colorScheme = "dark"
+
+
+    # Custom CSS
+    custom_css = []
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+    footerContent = "Mostly Code Occasionally Philosophy"
+
+    # Bottom sns share
+    snsShare = true # new add
+    # Popular sns share
+    # if you want add sns. please message!
+    thumbnail = "images/tn.png" # default sns thumbnail
+
+    # Multilanguage mode
+    langseparator = "|" # Separates menus from language selectors when site is multilingual.
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/axylos/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 2
+    url = "https://twitter.com/axylos/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/draketalley/"
+# Menu links
+[[menu.main]]
+    name = "Projects"
+    weight = 1
+    url  = "projects"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
